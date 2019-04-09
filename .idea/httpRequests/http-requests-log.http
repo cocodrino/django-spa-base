@@ -1,0 +1,248 @@
+GET http://localhost:8000/apiv2/2/tasks
+
+<> 2019-04-08T080340.200.json
+
+###
+
+POST http://localhost:8000/apiv2/tasks/new
+Authorization: Token e5af2f1eaea2179b4090c49be7a638c67f715cdb
+Content-Type: application/json
+
+{"text":"otra prueba"}
+
+<> 2019-04-08T080325.200.json
+
+###
+
+POST http://localhost:8000/auth/token/login
+Content-Type: application/json
+
+{"username":"other","password":"5678qwqw"}
+
+<> 2019-04-08T080316.200.json
+
+###
+
+POST http://localhost:8000/auth/token/login
+Content-Type: application/json
+
+{"username":"other","password":"5678qwqw"}
+
+<> 2019-04-08T080303.200.json
+
+###
+
+GET http://localhost:8000/apiv2/2/tasks
+
+<> 2019-04-08T080224.200.json
+
+###
+
+POST http://localhost:8000/api/users/create/
+Content-Type: application/json
+
+{"username": "other","password": "5678qwqw"}
+
+<> 2019-04-08T080211.201.json
+
+###
+
+POST http://localhost:8000/api/users/create/
+Content-Type: application/json
+
+{"username": "other","password": "5678qw"}
+
+<> 2019-04-08T080153.400.json
+
+###
+
+GET http://localhost:8000/apiv2/1/tasks
+
+<> 2019-04-08T075921.200.json
+
+###
+
+POST http://localhost:8000/apiv2/tasks/new
+Authorization: Token 15477e02c3cc52e4f25776648992f749d5632ba9
+Content-Type: application/json
+
+{"text":"otra prueba"}
+
+<> 2019-04-08T075907.200.json
+
+###
+
+POST http://localhost:8000/apiv2/tasks/new
+Authorization: Token 15477e02c3cc52e4f25776648992f749d5632ba9
+Content-Type: application/json
+
+{"text":"hola"}
+
+<> 2019-04-08T075823.200.json
+
+###
+
+POST http://localhost:8000/apiv2/tasks/new
+Authorization: Token 15477e02c3cc52e4f25776648992f749d5632ba9
+Content-Type: application/json
+
+{"text":"hola"}
+
+<> 2019-04-08T075653.500.txt
+
+###
+
+POST http://localhost:8000/apiv2/tasks/new
+Authorization: Token 15477e02c3cc52e4f25776648992f749d5632ba9
+Content-Type: application/json
+
+{"text":"hola"}
+
+<> 2019-04-08T075544.500.txt
+
+###
+
+POST http://localhost:8000/auth/token/login
+Content-Type: application/json
+
+{"username":"me","password":"12345asdf"}
+
+<> 2019-04-08T075537.200.json
+
+###
+
+POST http://localhost:8000/apiv2/tasks/new
+Authorization: Token 15477e02c3cc52e4f25776648992f749d5632ba9
+Content-Type: application/json
+
+{"text":"hola"}
+
+###
+
+POST http://localhost:8000/auth/token/login
+Content-Type: application/json
+
+{"username":"me","password":"12345asdf"}
+
+<> 2019-04-07T114403.200.json
+
+###
+
+POST http://localhost:8000/apiv2/tasks/new
+
+<> 2019-04-07T091133.200.json
+
+###
+
+GET http://localhost:8000/apiv2/1/tasks
+
+<> 2019-04-07T091050.200.json
+
+###
+
+GET http://localhost:8000/apiv2/1/tasks
+
+###
+
+GET http://localhost:8000/apiv2/1/tasks
+
+###
+
+GET http://localhost:8000/apiv2/1/tasks
+
+<> 2019-04-07T090912.200.json
+
+###
+
+GET http://localhost:8000/apiv2/1/tasks
+
+<> 2019-04-07T090632.404.html
+
+###
+
+GET http://localhost:8000/1/tasks
+
+<> 2019-04-07T090559.404.html
+
+###
+
+POST http://localhost:8000/auth/token/login
+Content-Type: application/json
+
+{"username":"me","password":"12345asdf"}
+
+<> 2019-04-06T103145.200.json
+
+###
+
+GET http://localhost:8000/auth/token/login
+Content-Type: application/json
+
+{"username":"me","password":"12345asdf"}
+
+<> 2019-04-06T103120.405.json
+
+###
+
+POST http://localhost:8000/api/users/create/
+Content-Type: application/x-www-form-urlencoded
+
+username=me&password=12345asdf
+
+<> 2019-04-06T100537.201.json
+
+###
+
+POST http://localhost:8000/api/users/create/
+Content-Type: application/x-www-form-urlencoded
+
+username=me&password=12345
+
+<> 2019-04-06T100523.400.json
+
+###
+
+POST http://localhost:8000/api/users/create/
+
+'username=me&password=12345'
+
+<> 2019-04-06T100412.400.json
+
+###
+
+POST http://localhost:8000/api/users/create/
+'username=me&password=12345':
+
+<> 2019-04-06T100406.400.json
+
+###
+
+POST http://localhost:8000/api/users/create/
+Content-Type: application/x-www-form-urlencoded
+'username=me&password=12345':
+
+<> 2019-04-06T100235.400.json
+
+###
+
+POST http://localhost:8000/api/users/create/
+Content-Type: application/x-www-form-urlencoded
+
+'username=me&password=12345'
+
+<> 2019-04-06T100226.400.json
+
+###
+
+POST http://localhost:8000/api/users/create/--data%20'username=me&password=12345'
+
+<> 2019-04-06T100145.404.html
+
+###
+
+POST http://localhost:8000/api/users/create%20--data%20'username=me&password=12345'
+
+<> 2019-04-06T100057.500.html
+
+###
+

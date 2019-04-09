@@ -1,0 +1,39 @@
+POST localhost:8000/api/users/create/
+Content-Type: application/json
+
+{"username": "other","password": "5678qwqw"}
+
+###
+POST localhost:8000/auth/token/login
+Content-Type: application/json
+
+{"username":"other","password":"5678qwqw"}
+
+
+###
+
+POST localhost:8000/api/users/create/
+Content-Type: application/x-www-form-urlencoded
+
+username=me&password=12345asdf
+###
+
+
+POST localhost:8000/auth/token/login
+Content-Type: application/json
+
+{"username":"me","password":"12345asdf"}
+
+###
+
+GET localhost:8000/apiv2/2/tasks
+
+###
+
+POST localhost:8000/apiv2/tasks/new
+Authorization: Token e5af2f1eaea2179b4090c49be7a638c67f715cdb
+Content-Type: application/json
+
+{"text":"otra prueba"}
+
+###
