@@ -1,3 +1,85 @@
+GET http://localhost:8000/apiv2/usuarioprueba3/tasks
+
+<> 2019-05-01T061315.200.json
+
+###
+
+GET http://localhost:8000/apiv2/other/tasks
+
+<> 2019-04-30T102044.200.json
+
+###
+
+POST http://localhost:8000/api/users/create/
+Content-Type: application/json
+
+{"username": "othfgfesrs","password": "5678dfqwqwd"}
+
+<> 2019-04-23T105331.201.json
+
+###
+
+POST http://localhost:8000/api/users/create/
+Content-Type: application/json
+
+{"username": "othfgfers","password": "5678dfqwqwd"}
+
+<> 2019-04-21T091141.201.json
+
+###
+
+GET http://localhost:8000/apiv2/2/tasks
+
+<> 2019-04-20T083553.200.json
+
+###
+
+POST http://localhost:8000/apiv2/tasks/new
+Authorization: Token e5af2f1eaea2179b4090c49be7a638c67f715cdb
+Content-Type: application/json
+
+{"text":"otra prueba"}
+
+<> 2019-04-20T083335.200.json
+
+###
+
+POST http://localhost:8000/auth/token/login
+Content-Type: application/json
+
+{"username":"other","password":"5678qswqw"}
+
+<> 2019-04-20T082743.400.json
+
+###
+
+POST http://localhost:8000/auth/token/login
+Content-Type: application/json
+
+{"username":"other","password":"5678qwqw"}
+
+<> 2019-04-20T082633.200.json
+
+###
+
+POST http://localhost:8000/api/users/create/
+Content-Type: application/json
+
+{"username": "others","password": "5678qwqwd"}
+
+<> 2019-04-20T082421.400.json
+
+###
+
+POST http://localhost:8000/api/users/create/
+Content-Type: application/json
+
+{"username": "others","password": "5678qwqwd"}
+
+<> 2019-04-20T082226.201.json
+
+###
+
 GET http://localhost:8000/apiv2/2/tasks
 
 <> 2019-04-08T080340.200.json

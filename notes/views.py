@@ -15,7 +15,7 @@ def notes_list(request, user):
     # pdb.set_trace()
 
     #  https://tutorial.djangogirls.org/en/django_orm/
-    notes = User.objects.get(id=user).notes.all()
+    notes = User.objects.get(username=user).notes.all()
     serializer = NoteSerializer(notes, many=True)
     return Response(serializer.data)
 
@@ -23,7 +23,7 @@ def notes_list(request, user):
 @api_view(['POST'])
 def note_add(request):
     serializer = NoteSerializer(data=request.data)
-    pdb.set_trace()
+    #pdb.set_trace()
     if serializer.is_valid():
         user = request.user
         serializer.save(owner=user)

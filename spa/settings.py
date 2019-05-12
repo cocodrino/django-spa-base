@@ -25,7 +25,9 @@ SECRET_KEY = 'u@xp8@9oq0*_)qw)d-cj6nw1(k$7zlccm$^+i8fl3gl3ee$4rd'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '127.0.0.1', 'localhost','.now.sh'
+]
 
 
 REST_FRAMEWORK = {
@@ -47,10 +49,12 @@ INSTALLED_APPS = [
     'rest_framework',
     'spauser',
     'rest_framework.authtoken',
-    'notes'
+    'notes',
+    'corsheaders'
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -129,3 +133,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+CORS_ORIGIN_ALLOW_ALL = True

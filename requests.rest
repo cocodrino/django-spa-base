@@ -1,7 +1,7 @@
 POST localhost:8000/api/users/create/
 Content-Type: application/json
 
-{"username": "other","password": "5678qwqw"}
+{"username": "othfgfesrs","password": "5678dfqwqwd"}
 
 ###
 POST localhost:8000/auth/token/login
@@ -26,7 +26,11 @@ Content-Type: application/json
 
 ###
 
-GET localhost:8000/apiv2/2/tasks
+GET localhost:8000/apiv2/usuarioprueba3/tasks
+
+###
+
+GET localhost:8000/apiv2/other/tasks
 
 ###
 
